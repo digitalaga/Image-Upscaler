@@ -1,3 +1,18 @@
-"scripts": {
-  "start": "node index.js"
+{
+  "name": "heroku-photo-enhance",
+  "version": "1.0.0",
+  "description": "Photo Enhancer Application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "fs": "0.0.1-security",
+    "multer": "^1.4.4"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
 }
