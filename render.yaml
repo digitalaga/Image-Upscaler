@@ -1,0 +1,5 @@
+services:
+  - type: web
+    name: photo-enhancer
+    buildCommand: npm install
+    startCommand: npm start
